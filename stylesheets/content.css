@@ -1,0 +1,490 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+   
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  background-color: #323232;
+  
+}
+
+
+.section_1 {
+  width: 100vw;
+  height: 60vw;
+}
+
+.beginning {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 4vw;
+}
+
+.hrustroi {
+  margin: 1vw 2vw;
+  display: flex;
+  justify-content: space-between;
+  width: 7vw;
+  height: 2vw;
+}
+
+p {
+  margin-top: 0.4vw;
+  font-family: "HelveticaNeue-Roman";
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+}
+
+.pyatochok {
+  width: 1.72vw;
+  height: 1.72vw;
+  background-image: url(../images/favicon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stroicompany {
+  width: 15vw;
+  height: 2vw;
+  border: 1.5px solid white;
+  border-radius: 20px;
+  margin: 1vw 2vw;
+  font-family: "HelveticaNeue-Roman";
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  padding: 0.3vw 0vw;
+}
+
+.model {
+  position: absolute;
+  z-index: 1;
+  cursor: grab;
+  width: 100vw;
+  height: 90vh;
+}
+
+
+.rozovayapalka1 {
+  width: 100vw;
+  height: 5vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F80CB5;
+  border-radius: 40px;
+  position: relative;
+  margin-top: 11vw;
+}
+
+.tire {
+  margin-top: 2.4vw;
+  width: 20vw;
+  height: 0.2vw;
+  background-image: url(../images/Line\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pridumai, .splanirui, .postroi, .nazovimateriali, .raduisyarezultatu, .zagruzka {
+  font-family: "HelveticaNeue-Roman";
+  font-size: 2vw;
+  color: white;
+  padding: 1.5vw 2vw;
+}
+
+.section_2 {
+  width: 100vw;
+  height: 58vw;
+  margin-top: 3vw;
+}
+
+.setka {
+  width: 96vw;
+  margin-left: 2vw;
+  height: 58vw;
+  background-image: url(../images/setka.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.plan {
+  width: 74vw;
+  margin-left: 16vw;
+  height: 58vw;
+  background-image: url(../images/plan.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.planirovka {
+  width: 10vw;
+  height: 2vw;
+  border: 1.5px solid white;
+  border-radius: 20px;
+  background-color: #323232;
+  margin: -58vw 88vw;
+  font-family: "HelveticaNeue-Roman";
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  padding: 0.3vw 0vw;
+}
+
+.furniture {
+ width: 100vw;
+ height: 20vw;
+ position: absolute;
+ top: 42vw;
+}
+
+.krovat {
+  background-image: url(../images/krovat.svg);
+  width: 9vw;
+  height: 10.3vw;
+  top: 40vw;
+  left: 12vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stol {
+  background-image: url(../images/stol.svg);
+  width: 6vw;
+  height: 6vw;
+  top: 46vw;
+  left: 7vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stolkvadrat {
+  background-image: url(../images/stolkvadrat.svg);
+  width: 7vw;
+  height: 7vw;
+  top: 55vw;
+  left: 5vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.divan {
+  background-image: url(../images/divan.svg);
+  width: 8vw;
+  height: 8.5vw;
+  top: 50vw;
+  left: 14vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.plita {
+  background-image: url(../images/plita.svg);
+  width: 6vw;
+  height: 6.3vw;
+  top: 75vw;
+  left: 6vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rakovina {
+  background-image: url(../images/rakovina.svg);
+  width: 6.2vw;
+  height: 6vw;
+  top: 75vw;
+  left: 13vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.reshetka {
+  background-image: url(../images/reshetka.svg);
+  width: 9.4vw;
+  height: 8vw;
+  top: 81vw;
+  left: 6.4vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stolkvadrat {
+  background-image: url(../images/stolkvadrat.svg);
+  width: 5vw;
+  height: 5vw;
+  top: 44vw;
+  left: 84vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.krovatsprava {
+  background-image: url(../images/krovat.svg);
+  width: 7vw;
+  height: 8vw;
+  top: 48vw;
+  left: 86vw;
+  rotate: 80deg;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rozovayapalka2 {
+  width: 100vw;
+  height: 5vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F80CB5;
+  border-radius: 40px;
+  position: relative;
+  margin-top: 6vw;
+}
+
+.section_3{
+  width: 100vw;
+  height: 60vw;
+}
+
+.cepochka_img {
+  width: 100vw;
+  height: 30vw;
+  position: absolute;
+  top: 42vw;
+}
+
+.seno, .kamen, .vetochki, .kirpich, .vimya, .zhelezo, .belp1, .belp2, .belp3, .belp4, .belp5, .belp6, .rozp, .strelka, .otmena, .logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  cursor: pointer;
+}  
+
+.materiali {
+  width: 10vw;
+  height: 2vw;
+  border: 1.5px solid white;
+  border-radius: 20px;
+  margin: 1vw 88vw;
+  font-family: "HelveticaNeue-Roman";
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  padding: 0.3vw 0vw;
+}
+
+.seno {
+  background-image: url(../images/seno.svg);
+  width: 18vw;
+  height: 18vw;
+  top: 105vw;
+  left: 8vw;
+}
+
+.belp1, .belp2, .belp3, .belp4, .belp5, .belp6{
+  width: 2vw;
+  height: 2vw;
+}
+
+.belp1, .belp2, .belp3, .belp4, .belp5, .belp6 {
+  background-image: url(../images/belp.svg);
+}
+
+.belp1 {
+  top: 120vw;
+  left: 13vw;
+}
+
+.belp2 {
+  top: 131vw;
+  left: 22vw;
+}
+
+.belp3 {
+  top: 130vw;
+  left: 48vw;
+}
+
+.belp4 {
+  top: 120vw;
+  left: 66vw;
+}
+
+.belp5 {
+  top: 119vw;
+  left: 84vw;
+}
+
+.belp6 {
+  top: 131vw;
+  left: 71vw;
+}
+
+
+.kamen {
+  background-image: url(../images/kamen.svg);
+  width: 9vw;
+  height: 10vw;
+  top: 123vw;
+  left: 19vw;
+}
+
+.vetochki {
+  background-image: url(../images/vetochki.svg);
+  width: 30vw;
+  height: 30vw;
+  top: 107vw;
+  left: 29vw;
+}
+
+.kirpich {
+  background-image: url(../images/kirpich.svg);
+  width: 16vw;
+  height: 13vw;
+  top: 108vw;
+  left: 57vw;
+}
+
+.vimya {
+  background-image: url(../images/vimya.svg);
+  width: 18vw;
+  height: 15vw;
+  top: 107vw;
+  left: 73vw;
+}
+
+.zhelezo {
+  background-image: url(../images/zhelezo.svg);
+  width: 18vw;
+  height: 13vw;
+  top: 122vw;
+  left: 67vw;
+}
+
+.cepochka {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  height: 20vw;
+  margin-top: 40vw;
+  margin-left: 20vw;
+}
+
+#soloma, #stone, #iron, #vetky, #vimya2, #kirpich {
+  background: none;
+  border: 1.5px solid white;
+}
+
+#kirpich2 {
+  background: none;
+  border: 1.5px solid white;
+}
+
+#iron {
+  background: none;
+  border: 1.5px solid white;
+}
+
+#vetky {
+  background: none;
+  border: 1.5px solid white;
+}
+
+
+.chast1 {
+  width: 32vw;
+  height: 3vw;
+  border: 1.5px solid white;
+  border-radius: 20px;
+  margin: -3vw 0vw;
+  font-family: "HelveticaNeue-Roman";
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  padding: 0.8vw 2vw;
+  cursor: pointer;
+}
+
+.section_4 {
+  width: 100vw;
+  height: 50vw;
+  overflow: hidden;
+}
+
+.strelka {
+  background-image: url(../images/strelka.svg);
+  width: 5vw;
+  height: 5.2vw;
+  top: 195vw;
+  left: 48vw;
+  animation: up 1s linear infinite;
+}
+
+@keyframes up{
+  0% {top: 197vw;}
+  50% {top: 195vw;}
+  100% {top: 197vw;}
+}
+
+.resultdom{
+  height: 20vw;
+  width: 20vw;
+}
+
+.rozovayapalka3 {
+  width: 100vw;
+  height: 5vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F80CB5;
+  border-radius: 40px;
+  position: relative;
+  margin-top: -7vw;
+}
+
+.house5 {
+  cursor: grab;
+}
+
+.section_5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  font-family: "HelveticaNeue-Roman";
+  font-size: 2vw;
+  color: white;
+  margin-top: 6vw;
+}
+
+.category {
+  width: 20vw;
+  height: 8vw;
+  margin-left: -53vw;
+}
+
+.name {
+  width: 27vw;
+  height: 8vw;
+  margin-left: -115vw;
+}
+
+.logo {
+  background-image: url(../images/logo.svg);
+  width: 21vw;
+  height: 18vw;
+  margin-top: -8.8vw;
+  margin-left: 74.5vw;
+}
